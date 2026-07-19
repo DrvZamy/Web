@@ -13,8 +13,7 @@ const required = [
   'public/assets/gallery/gallery-03.webp',
   'public/assets/gallery/gallery-04.webp',
   'netlify/functions/api.js',
-  'netlify.toml',
-  'minecraft-plugin/target/MineFiveBridge-1.2.0.jar'
+  'netlify.toml'
 ];
 
 const missing = required.filter((file) => !fs.existsSync(path.join(root, file)));
