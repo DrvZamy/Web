@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+database/minefive.json
+uploads/*
+!uploads/.gitkeep
+.netlify/
+*.log
+minecraft-plugin/build/manual/

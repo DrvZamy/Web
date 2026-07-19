@@ -1,0 +1,33 @@
+{
+  "name": "minefiveid-store-netlify",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Website resmi MineFiveID V4 dengan store, galeri, tema terang/gelap, AI server-only, dashboard admin, Discord, dan bridge Minecraft.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "build": "node scripts/verify-build.js",
+    "make-admin": "node scripts/make-admin.js",
+    "build-plugin": "bash minecraft-plugin/build-manual.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.9",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.9.16",
+    "sanitize-html": "^2.14.0",
+    "serverless-http": "^4.0.0",
+    "tweetnacl": "^1.0.3",
+    "zod": "^3.24.1"
+  }
+}

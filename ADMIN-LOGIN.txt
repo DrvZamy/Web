@@ -1,0 +1,12 @@
+MINEFIVEID V4 — AKUN SUPERADMIN BAWAAN
+
+Login URL : https://DOMAIN-KAMU/#/login
+Email     : admin@minefive.my.id
+Password  : MFid#2026!Admin7Q
+Role      : superadmin
+
+PENTING:
+1. Akun ini dibuat saat database baru pertama kali diinisialisasi.
+2. Setelah login, buka Profil > Ganti Password dan ubah password awal.
+3. Jangan unggah file ini ke repository publik. Gunakan repository privat.
+4. Database lama tidak otomatis dibuat ulang. Bila akun admin lama sudah ada, gunakan akun tersebut.
